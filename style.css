@@ -19,7 +19,7 @@ header {
     left: 0;
     right: 0;
     height: 60px;
-    background-color: #0075BE;
+    background-color: rgb(0, 117, 190);
 }
 
 nav {
@@ -67,13 +67,12 @@ a {
     font-weight: 700;
     font-family: 'Baloo 2', sans-serif;
     padding-bottom: 20px;
-    color: #FFDE00;
+    color: rgb(255, 222, 0);
 }
 
 .jumbotron-text {
     color: #333333;
     text-align: left;
-    padding-bottom: 20px;
     font-style: italic;
     border-bottom: 8px solid #fff12e;
 }
@@ -94,3 +93,48 @@ a {
     font-size: 22px;
     font-weight: 700;
 }
+
+/* news */
+
+.news-title {
+    background-color: rgb(203, 138, 82);
+    height: 100px;
+    
+}
+
+.news-title-text {
+    text-align: center;
+    color: rgb(20, 124, 30);
+    font-size: 32px;
+    font-family: 'Baloo 2', sans-serif;
+    margin-top: 0px;
+    padding-top:27px ;
+}
+
+.card-img img {
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px;
+  }
+  
+  h1.name {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: rgb(165, 122, 80);
+  }
