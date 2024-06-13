@@ -3,10 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+        <!-- style -->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/03c471e0fe.js" crossorigin="anonymous"></script>
         <title>Home</title>
     </head>
     <body>
@@ -27,7 +35,20 @@
                 <h1 class="jumbotron-title">Gotta Catch 'em All!</h1>
 
                 <div class="header-flex">
-                   
+                    <h2 class="jumbotron-text" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" data-aos-once= "true"
+                    data-aos-duration= "400"
+                    data-aos-delay= "500"
+                    data-aos-easing= "ease-in">What is <span style="color: #009dff;">Pokémon</span>?</h2>
+
+                    <!-- <div class="mini-text-flex">
+                        <p class="mini-text">Pokémon is a game franchise based off of fictional creatures named "Pokémon". Although, while it mainly produces games, it also produces other content such as animations & a card game.</p>
+                    </div> -->
+
+                    <div>
+                        <img onmouseover="changeImage(this)" onmouseout="changeImageBack(this)" src="assets/rowlet-jumbotron-1.jpg" alt="Jumbotron-Image" width="500" height="300">
+                    </div>
                 </div>
             </section>
         </main>
@@ -36,6 +57,7 @@
 
         </footer>
 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
