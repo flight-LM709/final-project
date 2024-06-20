@@ -60,7 +60,7 @@ a {
 }
 
 .card-img img {
-  width: 300px;
+  width: 325px;
   height: 325px;
   border-radius:10px;
 }
@@ -76,7 +76,7 @@ a {
 .card {
   background-color: rgb(255, 255, 255);
   width: 400px;
-  height: 600px;
+  height: 620px;
   padding: 40px;
   margin: 20px;
   border-radius: 20px;

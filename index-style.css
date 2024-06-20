@@ -74,7 +74,7 @@ a {
     color: #333333;
     text-align: left;
     font-style: italic;
-    border-bottom: 8px solid #fff12e;
+    border-bottom: 8px solid rgb(255, 241, 46);
 }
 
 .jumbotron-img {
