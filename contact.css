@@ -10,6 +10,7 @@ body {
   
 main {
     /* costumize with the header's height */
+    height: 100vh;
     margin-top: 60px;
     background-color: #ff6060;
 }
@@ -75,6 +76,7 @@ a {
 }
 
 h1 {
+    padding-top: 60px;
     margin-bottom: 10px;
     color: rgb(255, 222, 0);
 }
@@ -143,6 +145,10 @@ td{
 footer {
     background-color: rgb(0, 117, 190);
     margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .center-footer {

@@ -11,6 +11,7 @@
   main {
     /* costumize with the header's height */
     margin-top: 60px;
+    height: 100vh;
   }
 
 header {
@@ -46,6 +47,7 @@ a {
 /* title */
 
 .title h1 {
+  padding-top: 60px;
   text-align: center;
   font-size: 45px;
   font-family: 'Baloo 2', sans-serif;
@@ -80,6 +82,10 @@ a {
 footer {
     background-color: rgb(0, 117, 190);
     margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .center-footer {
