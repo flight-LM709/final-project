@@ -76,6 +76,14 @@ padding: 20px 30px;
 
 }
 
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
 /* footer  */
 footer {
     background-color: rgb(0, 117, 190);

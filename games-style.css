@@ -84,6 +84,15 @@ a {
   border-bottom: 12px solid rgb(203, 138, 82);;
 }
 
+.card:hover {
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+
+.text-container h1:hover {
+  color: white;
+}
+
 .text-container {
   padding: 0 10px
 }
