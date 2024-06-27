@@ -89,10 +89,6 @@ a {
   color: white;
 }
 
-.text-container h1:hover {
-  color: white;
-}
-
 .text-container {
   padding: 0 10px
 }
@@ -103,7 +99,7 @@ a {
 }
 
 h4.description {
-  color: rgb(117, 117, 117);
+  color: rgb(110, 110, 110);
   font-size: 13px;
 }
 
